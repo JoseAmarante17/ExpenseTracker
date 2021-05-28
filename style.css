@@ -1,9 +1,7 @@
-*{
-    background-color:white;
-}
+
 .border{
     border-radius: 15px;
-    border: 2px solid black ;
+    border: 8px solid black ;
     padding: 2%;
     margin-top: 5%;
     margin-left: 10%;
@@ -55,8 +53,21 @@ button{
     font-weight: bold;
     background-color: green!important;
     padding: 10px;
-     
-    
+    border-radius:15px;
+    transition:200ms;
+        
+}
+button:hover{
+  transform:scale(1.25);
+  transition:200ms;
+}
+
+.button{
+  width:auto;
+}
+label{
+  color:green;
+  font-weight:bold;
 }
 .nameinput input[type=text] {
     width: 44.25%;
@@ -66,7 +77,11 @@ button{
   }
   main{
       padding: 10px;
+
   }
+body{
+  background-color:#f5f5dc!important;
+}
 
 #mytable{
   width: 52%;
